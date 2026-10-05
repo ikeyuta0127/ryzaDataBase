@@ -1,0 +1,32 @@
+{
+  "itemList": [
+    {
+      "name": "きれいな水",
+      "category": [2],
+      "element": [1]
+    }
+  ],
+  "categoryList": [
+    {
+      "no": 1,
+      "name": "水"
+    }
+  ],
+  "elementList": [
+    {
+      "no": 1,
+      "name": "火"
+    },
+    {
+      "no": 2,
+      "name": "氷"
+    },
+    {
+      "no": 3,
+      "name": "風"
+    },{
+      "no": 4,
+      "name": "雷"
+    }
+  ]
+}
