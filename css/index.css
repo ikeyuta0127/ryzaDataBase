@@ -1,7 +1,14 @@
+
+.header{
+  height: 100px;
+}
+
+.header a{
+  font-size: 50px;
+  text-decoration: none;
+}
+
 .main{
   margin-top: 100px;
 }
 
-.d-flex{
-  display: flex;
-}
