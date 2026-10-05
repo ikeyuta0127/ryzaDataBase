@@ -8,10 +8,33 @@
   text-decoration: none;
 }
 
-.main{
-  margin-top: 100px;
-}
-
 .category > div, .element > div{
   padding-right: 40px;
+}
+
+tbody {
+  display: block;
+  height: 900px;
+  overflow-y: scroll;
+}
+
+thead {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead tr, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
 }
