@@ -39,6 +39,66 @@
       "name": "ナナシ草",
       "category": [20],
       "element": [3]
+    },
+    {
+      "name": "コゲクサ",
+      "category": [20,30],
+      "element": [1]
+    },
+    {
+      "name": "幸せクローバー",
+      "category": [20,21,33],
+      "element": [2,3]
+    },
+    {
+      "name": "アオツメクサ",
+      "category": [20,33],
+      "element": [4]
+    },
+    {
+      "name": "食毒草",
+      "category": [20,29],
+      "element": [2]
+    },
+    {
+      "name": "ヴァッサ麦",
+      "category": [18,20],
+      "element": [3]
+    },
+    {
+      "name": "メイプルリーフ",
+      "category": [4,20,30],
+      "element": [1]
+    },
+    {
+      "name": "スイートリーフ",
+      "category": [18,20],
+      "element": [2,4]
+    },
+    {
+      "name": "ローゼンリーフ",
+      "category": [10,20,33],
+      "element": [2,3]
+    },
+    {
+      "name": "古代樹の枝",
+      "category": [4,20,41],
+      "element": [2,4]
+    },
+    {
+      "name": "うに",
+      "category": [3],
+      "element": [3,4]
+    },
+    {
+      "name": "銀うに",
+      "category": [3,9],
+      "element": [2,3]
+    },
+    {
+      "name": "黄金うに",
+      "category": [3,9,21],
+      "element": [1,3,4]
     }
   ],
   "categoryList": [
