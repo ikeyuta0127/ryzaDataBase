@@ -6,7 +6,6 @@ const getItemList = async () => {
       return res.json();
     }
   }).then(data => {
-    console.log(data);
     itemList = data.itemList;
     categoryList = data.categoryList;
     elementList = data.elementList;
@@ -37,9 +36,9 @@ const createTr = (item) => {
   //カテゴリ要素作成
   const categoryTd = document.createElement("td");
   const categoryTdWrapDiv = document.createElement("div");
-  categoryTdWrapDiv.classList.add("d-flex");
+  categoryTdWrapDiv.classList.add("d-flex","category");
   itemCategory.forEach(data => {
-    let categoryDiv = document.createElement("div");console.log(data,categoryList,categoryList[0])
+    let categoryDiv = document.createElement("div");
     categoryDiv.textContent = categoryList[data - 1].name;
     categoryTdWrapDiv.appendChild(categoryDiv);
   });
@@ -49,7 +48,7 @@ const createTr = (item) => {
   //属性要素作成
   const elementTd = document.createElement("td");
   const elementTdWrapDiv = document.createElement("div");
-  elementTdWrapDiv.classList.add("d-flex");
+  elementTdWrapDiv.classList.add("d-flex","element");
   itemElement.forEach(data => {
     let elementDiv = document.createElement("div");
     elementDiv.textContent = elementList[data - 1].name;
@@ -62,7 +61,5 @@ const createTr = (item) => {
 }
 
 (async () => {
-  console.log("test");
-
   await getItemList();
 })();
